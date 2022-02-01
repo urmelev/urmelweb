@@ -1,7 +1,6 @@
-baseURL = "http://urmelweb.netlify.app/"
+baseURL = "https://urmelweb.netlify.app/"
 languageCode = "en-us"
 title = "Urmel Kinderladen e.V."
-disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
