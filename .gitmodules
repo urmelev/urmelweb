@@ -4,3 +4,6 @@
 [submodule "minimal"]
 	path = minimal
 	url = https://github.com/calintat/minimal.git
+[submodule "bla"]
+	path = bla
+	url = https://github.com/calintat/minimal.git

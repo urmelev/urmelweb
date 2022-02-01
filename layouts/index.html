@@ -3,8 +3,9 @@
 <main>
     <div class="intro">
         {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
-        <h1>{{ .Site.Title }}</h1>
-        <h2>{{ markdownify .Site.Params.Description }}</h2>
+        <h2>{{ .Site.Title }}</h2>
+        <img src="images/urmel.jpeg" alt="urmel log">
+        <h3>{{ markdownify .Site.Params.Description }}</h3>
         {{ with .Content }} <div class="homepage-content text-justify">{{ . }}</div> {{ end }}
     </div>
 </main>
